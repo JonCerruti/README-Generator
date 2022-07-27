@@ -20,12 +20,12 @@ function userInput() {
     {
         type: 'input',
         message: 'What is the name of your project?',
-        name: 'project',
+        name: 'title',
     },
     {
         type: 'input',
         message: 'Write a short description of your project.',
-        name: 'desription',
+        name: 'description',
     },
     {
         type: 'input',
@@ -55,6 +55,7 @@ function userInput() {
             'GNU General Public License v3.0',
             'MIT',
             'Apache license 2.0',
+            'Mozilla Public License 2.0',
             'none',
             
         ]
