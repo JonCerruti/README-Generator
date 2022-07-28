@@ -22,16 +22,16 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === licenseData[0]){
-    return `[${licenseData[0]}(https://www.gnu.org/licenses/agpl-3.0)`
+    return `[${licenseData[0]}](https://www.gnu.org/licenses/agpl-3.0)`
   }
   else if (license === licenseData[1]){
-    return `[${licenseData[1]}(https://opensource.org/licenses/MIT)`
+    return `[${licenseData[1]}](https://opensource.org/licenses/MIT)`
   }
   else if (license === licenseData[2]){
-    return `[${licenseData[2]}(https://opensource.org/licenses/Apache-2.0)`
+    return `[${licenseData[2]}](https://opensource.org/licenses/Apache-2.0)`
   }
   else if (license === licenseData[3]){
-    return `[${licenseData[3]}(https://opensource.org/licenses/MPL-2.0)`
+    return `[${licenseData[3]}](https://opensource.org/licenses/MPL-2.0)`
   }else{
     return '';
   }

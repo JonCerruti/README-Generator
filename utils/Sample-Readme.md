@@ -17,7 +17,7 @@
 ---
 
 ## License
-[MIT(https://opensource.org/licenses/MIT)
+[MIT](https://opensource.org/licenses/MIT)
 Read more about MIT
 
 ---
@@ -28,7 +28,7 @@ This project uses node.js to create readme files by prompting questions in the t
 ---
 
 ## Usage
-This application is used to creTE awesome readme files for all of your future projects.
+This application is used to create awesome readme files for all of your future projects.
 
 ---
 
