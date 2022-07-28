@@ -72,7 +72,7 @@ function writeToFile(fileName, data) {
 // a function to initialize app
 async function init() {
    let data = await userInput();{
-    writeToFile('./utils/README.md', generateMarkdown(data));
+    writeToFile('./utils/Sample-README.md', generateMarkdown(data));
    }
 }
 
