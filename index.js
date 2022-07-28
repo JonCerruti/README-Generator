@@ -9,7 +9,7 @@ function userInput() {
     return inquirer.prompt([
     {
         type: 'input',
-        message: 'What do you want to nme your file? (exclude .md)',
+        message: 'What do you want to name your file? (exclude .md)',
         name: 'file',
     },
     {
