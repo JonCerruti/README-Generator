@@ -9,6 +9,11 @@ function userInput() {
     return inquirer.prompt([
     {
         type: 'input',
+        message: 'What do you want to nme your file? (exclude .md)',
+        name: 'file',
+    },
+    {
+        type: 'input',
         message: 'What is your Github username?',
         name: 'github',
     },
@@ -72,7 +77,7 @@ function writeToFile(fileName, data) {
 // a function to initialize app
 async function init() {
    let data = await userInput();{
-    writeToFile('./utils/Sample-README.md', generateMarkdown(data));
+    writeToFile(`./utils/${data.file}.md`, generateMarkdown(data));
    }
 }
 
